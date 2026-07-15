@@ -1,19 +1,16 @@
-# Retail Sales Hierarchical Forecasting
+# Demand Forecasting
 
-This project builds a modular, production-ready forecasting pipeline for retail sales data with hierarchical reconciliation across region, store, category, and SKU levels.
+A modular Python project for end-to-end demand forecasting for goods on an ecommerce platform.
 
-## Project structure
+## Structure
 
-- notebooks/eda/: exploratory data analysis notebooks
-- notebooks/feature_engineering/: notebooks for feature engineering experiments
-- src/data/: dummy data generation and data loading utilities
-- src/features/: feature engineering logic
-- src/models/: forecasting and reconciliation modules
-- src/utils/: shared helpers and configuration
-- tests/: regression tests for pipeline components
+- demand_forecasting/data: data loading and ingestion
+- demand_forecasting/features: feature engineering
+- demand_forecasting/models: model training and evaluation
+- demand_forecasting/pipelines: orchestration
 
-## Quick start
+## Run
 
-1. Create a virtual environment and install dependencies.
-2. Run the example training script.
-3. Review generated forecasts and metrics.
+```bash
+python -m demand_forecasting.main --data path/to/sales.csv
+```
