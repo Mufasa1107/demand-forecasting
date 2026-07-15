@@ -1,0 +1,9 @@
+pandas>=2.2.0
+numpy>=1.26.0
+matplotlib>=3.9.0
+seaborn>=0.13.0
+scikit-learn>=1.5.0
+prophet>=1.1.0
+lightgbm>=4.3.0
+hierarchicalforecast>=0.4.0
+pytest>=8.0.0
